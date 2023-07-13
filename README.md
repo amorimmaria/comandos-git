@@ -17,15 +17,24 @@ Este repositório contém alguns comandos do Git, que são utilizados no dia-a-d
 `git rm --cached NOME_DO_ARQUIVO`
 > Alterar **NOME_DO_ARQUIVO** por arquivo desejado.
 
-## Criar branch
+## Criar uma branch nova
 
-`git checkout -b NOME_DO_BRANCH`
-> Alterar **NOME_DO_BRANCH** por nome do branch desejado.
+`git checkout -b NOME_DA_BRANCH`
+> Alterar **NOME_DA_BRANCH** por nome do branch desejado.
 
-## Alterar branch
+## Alterar branch em que esta e ir para outra
 
-`git checkout NOME_DO_BRANCH`
+`git checkout NOME_DA_BRANCH`
 > Exemplo: git checkout master volta para o master
+
+## Verificar status dos arquivos 
+`git status`
+
+## Adicionar um arquivo ao controle de versão
+`git add NOME_DO_ARQUIVO`
+
+## Commitar uma mudança
+`git commit -m "MENSAGEM_DO_COMMIT"`
 
 ## Push para branch não master
 
